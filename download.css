@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poiret+One&family=Press+Start+2P&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(img/down.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+    font-family: "Press Start 2P", system-ui;
+    padding: 3px 20px 20px 20px;
+}
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #4f01ce9a;
+    border-radius: 12px;
+}
+ul {
+    border: solid;
+    text-decoration: none;
+    border-radius: 12px;
+    border-color: #1a1a1ab0;
+    background-color: #1a1a1a9a;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+.nav-link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #3cff008a;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    color: #000004;
+}
+.nav-login {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #3cff008a;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: #000004;
+}
+.nav-link:hover {
+    background-color: #3cff0036;
+}
+.nav-login:hover {
+    background-color: #3cff0036;
+}
+.fundo {
+  background-color: #3d004270;
+  border: #1a1a1a9a;
+  border-radius: 5px;
+  gap: 0px;
+}
+.titu {
+  background-image: linear-gradient(to bottom, rgb(1, 185, 1), yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;    
+  text-align: center;
+  padding: 10px;
+  margin: 50px;
+}
+.quebra {
+  background-image: linear-gradient(to top, green, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding: 6px;
+  font-size: 20px;
+}
+.fundo {
+  background-color: #3d004270;
+  border: #1a1a1a9a;
+  border-radius: 5px;
+  gap: 0px;
+}
+.desc img{
+    width: 250px;
+    border: solid green;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.desc img:hover {
+  transform: scale(1.03);
+}
+.desc {
+    display: flex;
+    justify-content: center;
+}
+.video {
+  display: flex;
+  justify-content: center;
+}
+.descr {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+h2 {
+    background-image: linear-gradient(to bottom, white, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.descr p {
+    background-image: linear-gradient(to top, antiquewhite, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.download-container {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0;
+}
+.dow {
+  border: solid;
+  border-radius: 12px;
+  border-color: #1a1a1ab0;
+  color: rgb(3, 214, 13);
+  background-color: #3d004270;
+  padding: 16px;
+  width: 150px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.dow:hover {
+  text-decoration: none;
+  background-color: #2a06648a;
+  transform: scale(1.05);
+}
+.dow p {
+  text-decoration: none;
+  margin: 0;
+}
